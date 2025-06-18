@@ -40,6 +40,7 @@ public class ExchangeRatesServiceImpl implements ExchangeRatesService {
 				Currency.EUR, container.getRates().get(Currency.EUR.name()),
 				Currency.RUB, container.getRates().get(Currency.RUB.name()),
 				Currency.USD, BigDecimal.ONE
+				Currency.VND, container.getRates().get(Currency.VND.name()) // Added VND
 		);
 	}
 
