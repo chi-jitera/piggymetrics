@@ -1,8 +1,14 @@
-package com.piggymetrics.statistics.domain;
+package com.piggymetrics.account.chi1;
 
 import javax.validation.constraints.NotNull;
 import java.math.BigDecimal;
 
+/**
+ * Savings settings/details for an account.
+ * <p>
+ * Includes current amount, currency, interest rate, and flags describing whether it is a deposit
+ * and whether interest is capitalized.
+ */
 public class Saving {
 
 	@NotNull
